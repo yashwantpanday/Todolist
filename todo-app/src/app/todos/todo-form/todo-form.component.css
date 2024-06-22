@@ -1,0 +1,21 @@
+.container {
+    max-width: 600px;
+  }
+  
+  .card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  

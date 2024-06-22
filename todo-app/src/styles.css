@@ -1,0 +1,25 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 3;
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+    margin-top: 17px;
+}
+.btn-primary[_ngcontent-ng-c3400644200] {
+    margin-top: 10px;
+    background-color: forestgreen;
+    padding: 8px;
+    margin-left: 200px;
+}
+button:not(:disabled) {
+    cursor: pointer;
+    margin: 6px;
+}

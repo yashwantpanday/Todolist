@@ -1,0 +1,7 @@
+<h2>Todo Detail</h2>
+<div *ngIf="todo">
+  <h3>{{ todo.title }}</h3>
+  <p>{{ todo.description }}</p>
+  <p>Completed: {{ todo.completed }}</p>
+  <button [routerLink]="['/todos/edit', todo.id]">Edit</button>
+</div>
